@@ -14,12 +14,134 @@
            <meta name="generator" content="Brackets">
 	  <script src="https://js.stripe.com/v3"></script>
            <style type= "text/css" >
-             
+		   #left-sidebar{
+			   position:absolute;
+			   float:left;
+			   right:0px;
+			   width:300px;
+			   height:700px;
+			   border-style:outset;
+			   
+		   }   
+		   
+		   .crazy{
+		   width:290px;
+			   height:150px;
+		   background-color:rgb(0,0,0);
+		   }
+		   
+		   html{
+		   width:100%;
+			   height:100%;
+		   }
+		   
+		   body{
+			   width:100%;
+		   height:100%;
+			   overflow:scroll;
+		   }
+		   
+		     h1{
+		   color:rgb(0,0,0);
+			     font-size:20;
+			     font-style:ariel;
+		   }
+		   
+.neon
+{
+  position:absolute;
+  top:10%;
+  left:25%;
+	translate:transform (-50%,-50%);
+	margin:0;
+	padding:0 20px;
+	font-size:50px;
+	color:#34ccff;
+	text-shadow:0 0 20px;
+}
+
+
+.neon:after
+{
+	top:0;
+	left:0;
+	content:attr(data-text);
+	position:absolute;
+	padding:0 0 20px;
+	z-index:-1;
+	color:#34ccff;
+	filter:blur(15px);
+}
+
+.neon:before
+{
+	content:" ";
+	top:0;
+	left:0;
+	position:absolute;
+	background:#34ccff;
+	z-index:-3;
+	opacity:.5;
+	filter:blur(40px);
+}
+    ul {
+       margin:0px;
+       padding:0px;
+       list-style: none;
+        
+    }
+ul li {
+     float: Left;
+    width:150px;
+        height:50px;
+    background-color:d3d3d3;
+    
+    line-height: 50px;
+    text-align:center;
+    font-size:20px;
+    font-family: ariel;
+    margin-right: 7px;
+    }
+ul li a {
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+ul li a:hover {
+    float:none;
+    background-color:aqua; 
+    }
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+	
               </style>
     </header>
     <head>
       </head>
   <body>
+	  <div id="left-sidebar">
+	  <div class="crazy"><h7 class="neon" data-text="Business">Business</h7></div>
+		  <br>
+		  <br>
+		  <br>
+	    <div class="crazy"><h7 class="neon" data-text="Animal">Animal</h7></div>
+		   <br>
+		  <br>
+		  <br>
+		    <div class="crazy"><h7 class="neon" data-text="Car">Car</h7></div>
+		   <br>
+		  <br>
+		  <br>
+		   <div class="crazy"><h7 class="neon" data-text="Nature">Nature</h7></div>
+	  </div>
+	  
+	  <div class="bossup">
+		  
+		  </div>
     </body>
   <footer>
     </footer>
